@@ -40,8 +40,8 @@ header ul {
 
 }
 header {
-    border-bottom: 4px dashed rgb(211, 218, 211);
-
+    border-bottom: 4px solid rgb(211, 218, 211);
+     
 }
 main {
     margin-top:60px;
@@ -117,6 +117,9 @@ main section article:nth-child(2) p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     opacity: 0.6;
 }
+input[type="checkbox"]:checked + label
+{
+text-decoration: line-through;}
 
 #sec3 img {
     margin-top: 20px;
